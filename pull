@@ -1,0 +1,5 @@
+#!/bin/bash
+ssh-agent bash -c 'ssh-add ~/.ssh/backend-dist; git pull';
+npm run backend; pm2 reload "BlocksHub API";
+npm run frontend; pm2 reload "BlocksHub WWW";
+npm run game-client; pm2 reload "BlocksHub Game Client";

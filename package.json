@@ -1,0 +1,23 @@
+{
+    "name": "deploy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "backend": "node get/backend.js && node get/backend-config.js",
+        "frontend": "node get/frontend.js && node get/frontend-config.js",
+        "game-client": "node get/game-client.js && node get/game-client-config.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "archiver": "^5.0.0",
+        "aws-sdk": "^2.739.0",
+        "fs-extra": "^9.0.1",
+        "javascript-obfuscator": "^1.11.0",
+        "rimraf": "^3.0.2",
+        "unzipper": "^0.10.11"
+    }
+}

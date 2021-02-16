@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "checkJs": true
+    },
+    "exclude": [
+        "game-client-dist/*",
+        "web-backend-dist/*",
+        "web-frontend-dist/*"
+    ]
+}
