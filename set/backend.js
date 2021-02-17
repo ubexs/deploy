@@ -108,7 +108,7 @@ for (const file of distLen) {
         unicodeEscapeSequence: false
     });
     // console.log(obj.getObfuscatedCode());
-    let code = `/* Copyright 2019-${new Date().getFullYear()} BlocksHub.net - All rights reserved. */\n\n` + obj.getObfuscatedCode();
+    let code = `/* Copyright 2020-${new Date().getFullYear()} ubexs.com - All rights reserved. */\n\n` + obj.getObfuscatedCode();
     fs.writeFileSync(file, code);
 }
 let archiveName = path.join(__dirname, '../tmp/', crypto.randomBytes(8).toString('hex') + '.zip');
