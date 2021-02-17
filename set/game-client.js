@@ -100,7 +100,7 @@ for (const file of walk(dmodule + '/dist')) {
         unicodeEscapeSequence: false
     });
     // console.log(obj.getObfuscatedCode());
-    let code = `/* Copyright 2019-${new Date().getFullYear()} BlocksHub.net - All rights reserved. */\n\n` + obj.getObfuscatedCode();
+    let code = `/* Copyright 2020-${new Date().getFullYear()} ubexs.com - All rights reserved. */\n\n` + obj.getObfuscatedCode();
     fs.writeFileSync(file, code);
 }
 // add self xss warning
