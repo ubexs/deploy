@@ -10,7 +10,7 @@ const s3 = new aws.S3({
     accessKeyId: config.aws.accessKeyId,
     secretAccessKey: config.aws.secretAccessKey,
 });
-let base = path.join(__dirname, '../../web-backend/');
+let base = path.join(__dirname, '../../backend/');
 let tmpModuleName = crypto.randomBytes(8).toString('hex');
 let dmodule = path.join(__dirname, '../tmp/', tmpModuleName);
 
