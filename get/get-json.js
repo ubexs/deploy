@@ -4,8 +4,8 @@ const s3 = require('../utils/aws');
 
 /**
  * Get a json file and put it somewhere
- * @param {string} folderName web-backend-dist
- * @param {string} s3Bucket web-backend
+ * @param {string} folderName backend-dist
+ * @param {string} s3Bucket backend
  * @param {string} s3Key config.json
  */
 const main = (folderName, s3Bucket, s3Key) => {
