@@ -4,7 +4,7 @@ const s3 = require('../utils/aws');
 
 /**
  * Upload a config file to aws
- * @param {string} s3Bucket web-backend
+ * @param {string} s3Bucket backend
  * @param {string} s3Key config.json
  */
 const main = (s3Bucket, s3Key) => {
