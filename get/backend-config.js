@@ -1,2 +1,2 @@
 const main = require('./get-json');
-main('web-backend-dist', 'web-backend', 'config.json');
+main('backend-dist', 'backend', 'config.json');
