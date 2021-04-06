@@ -8,7 +8,7 @@ const s3 = new aws.S3({
     accessKeyId: config.aws.accessKeyId,
     secretAccessKey: config.aws.secretAccessKey,
 });
-let fLocation = path.join(__dirname, '../config/config.web-frontend.json');
+let fLocation = path.join(__dirname, '../config/config.frontend.json');
 const main = () => {
     let conf = fs.readFileSync(fLocation);
     s3.putObject({
