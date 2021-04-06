@@ -1,7 +1,7 @@
 /**/node_modules/
 /config.json
-/web-backend-dist/*
-/web-frontend-dist/*
-/game-client-dist/*
+/backend-dist/*
+/frontend-dist/*
+/client-dist/*
 /tmp/*
 /config/*
