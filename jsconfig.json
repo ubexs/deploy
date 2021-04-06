@@ -3,8 +3,8 @@
         "checkJs": true
     },
     "exclude": [
-        "game-client-dist/*",
-        "web-backend-dist/*",
-        "web-frontend-dist/*"
+        "client-dist/*",
+        "backend-dist/*",
+        "frontend-dist/*"
     ]
 }
