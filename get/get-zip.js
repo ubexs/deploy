@@ -10,8 +10,8 @@ let zipLocation = path.join(__dirname, '../tmp/', crypto.randomBytes(8).toString
 
 /**
  * Get a zip archive and extract it
- * @param {string} folderName web-backend-dist
- * @param {string} s3Bucket web-backend
+ * @param {string} folderName backend-dist
+ * @param {string} s3Bucket backend
  * @param {string} s3Key dist.zip
  */
 const main = (folderName, s3Bucket, s3Key) => {
