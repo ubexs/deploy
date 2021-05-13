@@ -1,2 +1,2 @@
 # deploy
-Originally called BlocksHub by https://beak.dev/ (It's not related)
+Built on top of BlocksHub by https://beak.dev/ (It's not related)
